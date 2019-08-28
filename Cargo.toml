@@ -1,0 +1,19 @@
+[package]
+name = "pcap_index"
+version = "0.1.0"
+authors = ["ivankabestwill <278467214@qq.com>"]
+edition = "2018"
+
+[lib]
+name = "pcap_index"
+crate-type = ["staticlib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log=""
+log4rs=""
+leveldb-rs=""
+leveldb=""
+libc=""
+http=""

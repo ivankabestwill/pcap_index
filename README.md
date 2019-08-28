@@ -6,7 +6,8 @@ pcap store with index now capture packet with nta (rust cffi)
 search pcap file with flow info by http like:
   wget  'http://127.0.0.1:50000/query?ip=172.16.150.53&port=21&proto=6' -O test.pcap
 
-遗留问题
+遗留问题：
+
 1:还没进行性能调优
 
 2:用带范围的参数搜索还有点问题 wget  'http://127.0.0.1:50000/query?ip=172.16.150.53-172.16.150.86&port=21&proto=6' -O test.pcap 
